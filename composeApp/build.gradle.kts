@@ -48,6 +48,8 @@ kotlin {
             implementation(compose.material3)
             implementation(compose.materialIconsExtended)
             implementation(libs.material3.window.size.multiplatform)
+            implementation(libs.accompanist.systemUIController)
+            implementation(libs.kotlinX.serializationJson)
 
         }
     }
