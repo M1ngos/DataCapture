@@ -7,16 +7,16 @@ class Destinations {
     object Onboarding
 
     @Serializable
-    object AppointmentIdView
+    object AppointmentIdScreen
 
     @Serializable
-    object CaptureImageView
+    object CaptureImageScreen
 
     @Serializable
-    object CaptureFingerprintView
+    object CaptureFingerprintScreen
 
     @Serializable
-    object CaptureSignatureView
+    object CaptureSignatureScreen
 
 //    @Serializable
 //    data class AllTasks(val type: String)
