@@ -54,6 +54,8 @@ kotlin {
             implementation(libs.kotlinX.serializationJson)
             api(libs.koin.core)
             implementation(libs.koin.compose)
+            api(libs.multiplatformSettings.noArg)
+            api(libs.multiplatformSettings.coroutines)
 
         }
     }

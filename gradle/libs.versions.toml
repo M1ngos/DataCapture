@@ -24,6 +24,8 @@ kotlinxSerializationJson = "1.7.3"
 koin = "4.0.0"
 koinCompose = "4.0.0"
 koinComposeMultiplatform = "4.0.0"
+multiplatformSettings = "1.2.0"
+
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -53,6 +55,9 @@ camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cam
 camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camerax_version" }
 camera-view = { module = "androidx.camera:camera-view", version.ref = "camerax_version" }
 camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "camerax_version" }
+multiplatformSettings-noArg = { module = "com.russhwolf:multiplatform-settings-no-arg", version.ref = "multiplatformSettings" }
+multiplatformSettings-coroutines = { module = "com.russhwolf:multiplatform-settings-coroutines", version.ref = "multiplatformSettings" }
+
 
 
 [plugins]
